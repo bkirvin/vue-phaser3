@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "http-server dist --port=5000"
+    "start": "http-server dist --port=5000",
+    "build:pwa": "vue-cli-service build --pwa"
   },
   "dependencies": {
     "core-js": "^3.26.1",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
+    "@vue/cli-plugin-pwa": "~5.0.8",
     "http-server": "^14.1.1",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0"
